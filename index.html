@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Vista Verde Plantas Ornamentais</title>
 </head>
 
-<body>
-    <section class="sectionOne">
-        <header class="header">
+<body class="bg-gray-200">
+    <section>
+        <header class="flex flex-row w-screen justify-between items-center bg-gray-950">
             <div><img src="Imagens/logo-vista-verde.png"></div>
             <div>
                 <nav>
-                    <ul class="desktop">
-                        <div class="navDiv">
+                    <ul class="">
+                        <div class="flex flex-row md:w-96 justify-around md:text-3xl text-white">
                             <li><a href="index.html">HOME</a></li>
                             <li><a href="sobre.html">SOBRE</a></li>
                             <li><a href="produto.html">PRODUTOS</a></li>
@@ -26,13 +27,18 @@
         </header>
     </section>
 
-    <img class="banner" src="Imagens/banner.jpg">
-    <div class="textPI">Beleza Natural em Seu Espaço</div>
-    <div class="bottomDM"><a href="sobre.html">Descubra Mais</a></div>
+    <img class="mb-32" src="Imagens/banner.jpg">
+    <section class="flex flex-col items-center h-44 justify-between md:-mt-96">
+        <div class="md:text-6xl text-white">Beleza Natural em Seu Espaço</div>
+        <div
+            class="md:text-5xl md:py-1.5 md:px-2 bg-lime-400 text-white md:w-96 rounded-xl text-center">
+            <a href="sobre.html">Descubra Mais</a>
+        </div>
+    </section>
 
-    <section class="sectionTwo">
-        <div><img class="vistaVerde" src="Imagens/vista-verde.jpg" alt="Loja da Vista Verde Plantas Ornamentais."></div>
-        <div class="textVistaVerde">
+    <section class="md:mt-32 flex md:flex-row justify-around w-screen items-center">
+        <div class="md:w-1/3 md:h-1/3"><img src="Imagens/vista-verde.jpg" alt="Loja da Vista Verde Plantas Ornamentais."></div>
+        <div class="w-1/2 text-3xl font-serif">
             A Vista Verde é especialista em trazer vida aos ambientes através de plantas
             ornamentais selecionadas. Com mais de 20 anos de experiência, oferecemos soluções
             verdes personalizadas para lares e escritórios. Conecte-se com a natureza onde você
@@ -46,42 +52,42 @@
         </div>
     </section>
 
-    <section class="sectionThree">
+    <section class="">
         <div>
-            <h3 class="titleH3">Produtos</h3>
+            <h3 class="text-7xl">Produtos</h3>
         </div>
-        <div class="articles">
-            <div class="article12">
-                <article class="article">
-                    <img class="imgPlanta" src="Imagens/ficus-capa.jpg" alt="">
-                    <div class="nomePlanta">Ficus Lyrata</div>
-                    <div class="saibamais"><a href="FicusLyrata.html">Saiba Mais</a></div>
+        <div class="">
+            <div class="">
+                <article class="">
+                    <img class="md:w-1/3 md:h-1/3 rounded-xl" src="Imagens/ficus-capa.jpg" alt="">
+                    <div class="">Ficus Lyrata</div>
+                    <div class=""><a href="FicusLyrata.html">Saiba Mais</a></div>
                 </article>
-                <article class="article">
-                    <img class="imgPlanta" src="Imagens/areca-capa.jpg" alt="">
-                    <div class="nomePlanta">Areca Palmeira</div>
-                    <div class="saibamais"><a href="ArecaPalmeira.html">Saiba Mais</a></div>
+                <article class="">
+                    <img class="md:w-1/3 md:h-1/3 rounded-xl" src="Imagens/areca-capa.jpg" alt="">
+                    <div class="">Areca Palmeira</div>
+                    <div class=""><a href="ArecaPalmeira.html">Saiba Mais</a></div>
                 </article>
             </div>
-            <div class="article34">
-                <article class="article">
-                    <img class="imgPlanta" src="Imagens/espada-capa.jpg" alt="">
-                    <div class="nomePlanta">Espada de São Jorge</div>
-                    <div class="saibamais"><a href="EspadaSaoJorge.html">Saiba Mais</a></div>
+            <div class="">
+                <article class="">
+                    <img class="md:w-1/3 md:h-1/3 rounded-xl" src="Imagens/espada-capa.jpg" alt="">
+                    <div class="">Espada de São Jorge</div>
+                    <div class=""><a href="EspadaSaoJorge.html">Saiba Mais</a></div>
                 </article>
-                <article class="article">
-                    <img class="imgPlanta" src="Imagens/phalaenopsis-capa.jpg" alt="">
-                    <div class="nomePlanta">Orquídea Phalaenopsis</div>
-                    <div class="saibamais"><a href="Phalaenopsis.html">Saiba Mais</a></div>
+                <article class="">
+                    <img class="md:w-1/3 md:h-1/3 rounded-xl" src="Imagens/phalaenopsis-capa.jpg" alt="">
+                    <div class="">Orquídea Phalaenopsis</div>
+                    <div class=""><a href="Phalaenopsis.html">Saiba Mais</a></div>
                 </article>
             </div>
         </div>
     </section>
 
-    <div class="conhecaMais"><a class="conhecaMais" href="produto.html">Conheça Mais de Nossos Produtos</a></div>
+    <div class=""><a class="" href="produto.html">Conheça Mais de Nossos Produtos</a></div>
 
-    <footer class="footer">
-        <div class="textFooter">Todos os Direitos Reservados @ 2024</div>
+    <footer class="">
+        <div class="">Todos os Direitos Reservados @ 2024</div>
     </footer>
 </body>
 

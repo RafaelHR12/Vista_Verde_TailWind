@@ -1,96 +1,13 @@
 .mt-40rem {
     margin-top: -38rem;
 }
+
+@media (min-width: 768px) and (max-width: 1072px) {
+    .displayNone {
+        display: none;
+    }
+}
 /*
-body {
-    margin: 0 auto;
-    width: 100%;
-    background-color:aliceblue;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.navDiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
-    width: 400px;
-    align-items: center;
-    font-size: 25px;
-}
-
-.navDiv li a {
-    text-decoration: none;
-    color: rgb(6, 167, 113);
-}
-
-.banner {
-    width: 100%;
-    height: 700px;
-}
-
-.textPI {
-    font-size: 80px;
-    position: absolute;
-    border-radius: 12px;
-    color: white;
-    width: 1000px;
-    height: 50px;
-    margin-top: -600px;
-    margin-left: 100px;
-    padding: 10px;
-}
-
-.bottomDM {
-    font-size: 50px;
-    padding: 10px;
-    position: absolute;
-    border-radius: 20px;
-    background-color: rgb(6, 167, 113);
-    margin-top: -350px;
-    margin-left: 450px;
-}
-
-.bottomDM a {
-    text-decoration: none;
-    color: white;
-}
-
-.sectionTwo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 80px;
-}
-
-.vistaVerde {
-    width: 500px;
-    height: 500px;
-}
-
-.textVistaVerde {
-    font-size: 30px;
-    width: 500px;
-}
-
-.titleH3 {
-    font-size: 80px;
-    margin: 0px 0px 40px 110px;
-}
-
-.articles {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .articles .article12 {
     display: flex;

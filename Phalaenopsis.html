@@ -4,18 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Orquídea Phalaenopsis</title>
 </head>
 
-<body>
-    <section class="">
-        <header class="">
-            <div><img src="Imagens/logo-vista-verde.png"></div>
+<body class="bg-gray-200 w-full">
+    <section>
+        <header
+            class="flex md:flex-row sm:flex-col sm:h-[18.75rem] w-screen justify-between items-center bg-lime-950 sm:pb-[3.125rem]">
+            <div class="ml-[2rem]"><img src="Imagens/logo-vista-verde.png"></div>
             <div>
                 <nav>
                     <ul class="">
-                        <div class="">
+                        <div
+                            class="flex flex-row justify-around md:text-[1.875rem] text-white sm:w-[25rem] sm:text-[2rem] mr-[2rem]">
                             <li><a href="index.html">HOME</a></li>
                             <li><a href="sobre.html">SOBRE</a></li>
                             <li><a href="produto.html">PRODUTOS</a></li>
@@ -26,31 +28,30 @@
         </header>
     </section>
 
-    <section class="">
-        <div><img class="" src="Imagens/phalaenopsis-capa.jpg" alt="Orquídea Phalaenopsis"></div>
-        <div class="">
-            <div class="">Orquídea Phalaenopsis</div>
-            <br>
-            <div class="">
+    <section class="flex lg:flex-row sm:flex-col justify-around w-full mt-[5rem]">
+        <div class="ml-[2rem]"><img class="w-[96%]" src="Imagens/phalaenopsis-capa.jpg" alt="Orquídea Phalaenopsis"></div>
+        <div class="sm:ml-[2rem] sm:mt-[3rem]">
+            <div class="lg:text-[2.75rem] sm:text-[1.75rem] xl:text-[3.75rem] font-bold">Orquídea Phalaenopsis</div>
+            <div class="lg:text-[1.75rem] sm:text-[1.35rem] xl:text-[2.15rem]">
                 A Orquídea Phalaenopsis é renomada por suas flores majestosas que podem
                 florescer várias vezes ao ano. Suas flores delicadas e duráveis fazem dela uma favorita
                 entre os amantes de plantas.
-                <br><br>
-                Cuidados: Requer alta umidade e luz indireta; evitar a exposição direta ao sol.
+                <br>
+                <span class="italic font-bold">Cuidados</span>: Requer alta umidade e luz indireta; evitar a exposição direta ao sol.
             </div>
         </div>
     </section>
 
     <section>
-        <div class="">Galeria de Imagens</div>
-        <div class="">
-            <div><img class="" src="Imagens/phalaenopsis1.jpg" alt="Orquídea Phalaenopsis"></div>
-            <div><img class="" src="Imagens/phalaenopsis2.jpg" alt="Orquídea Phalaenopsis"></div>
-            <div><img class="" src="Imagens/phalaenopsis3.jpg" alt="Orquídea Phalaenopsis"></div>
+        <div class="lg:text-[3.75rem] sm:text-[2.75rem] xl:text-[4.75rem] font-bold mt-[8rem] mb-[3rem] ml-[2rem]">Galeria de Imagens</div>
+        <div class="flex sm:flex-col sm:justify-around md:flex-row sm:justify-center">
+            <div class="flex sm:justify-center md:justify-start md:ml-[3rem] mb-[3rem]"><img class="w-[50%] sm:w-[85%]" src="Imagens/phalaenopsis1.jpg" alt="Orquídea Phalaenopsis"></div>
+            <div class="flex sm:justify-center md:justify-start md:ml-[3rem] mb-[3rem]"><img class="w-[50%] sm:w-[85%]" src="Imagens/phalaenopsis2.jpg" alt="Orquídea Phalaenopsis"></div>
+            <div class="flex sm:justify-center md:justify-start md:ml-[3rem] mb-[3rem]"><img class="w-[50%] sm:w-[85%]" src="Imagens/phalaenopsis3.jpg" alt="Orquídea Phalaenopsis"></div>
         </div>
     </section>
 
-    <footer class="">
+    <footer class="bg-lime-950 text-white text-center sm:py-[2.5rem]">
         <div class="">Todos os Direitos Reservados @ 2024</div>
     </footer>
 </body>
